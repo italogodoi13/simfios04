@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Criar Estoque</title>
+        
+        <style>
+             #divItem {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                background-color:darkgray;
+            }
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+            }
+            
+            #divBitola{
+                position: absolute;
+                top:100;
+                left: 100;
+                background-color: darkorchid;
+                z-index: 5;
+                width: 100;
+                height: 40;
+            }
+            #divCor{
+                position: absolute;
+                top:100;
+                left: 220;
+                background-color: darkorchid;
+                z-index: 5;
+                width: 100;
+                height: 40;
+            }
+            #divQuantidade{
+                position: absolute;
+                top:100;
+                left: 350;
+                background-color: darkorchid;
+                z-index: 5;
+                width: 250;
+                height: 40;
+                
+            }
+            #botao1{
+                position: absolute;
+                top:100;
+                left: 620;
+                background-color: darkorchid;
+                z-index: 5;
+                width: 120;
+                height: 40;
+            }
+            #botaoInicio{
+                position: absolute;
+                top: 10;
+                left: 10;
+                width: 120;
+                height: 40;
+                z-index: 5;
+
+            }
+        </style>
+        
+    </head>
+    <body>
+
+    <div id="divItem">
+        <div id="divBitola">
+            Bitola do Fio:
+            <select id="bitola">
+                <option>1,5mm²</option>
+                <option>2,5mm²</option>
+                <option>4,0mm²</option>
+
+            </select>
+        </div>
+
+        <div id="divCor">
+            Cor do Fio:
+            <select id="corDoFio">
+                <option>Preto</option>
+                <option>Azul</option>
+                <option>Verde</option>
+
+            </select>
+        </div>
+        <div id="divQuantidade">
+            Quantidade:
+            <form>
+                <input type="number" id="quantidade">
+            </form>
+        </div>
+        <div >
+            <input type="button" id="botao1" onclick="incluirItem()" value="Incluir no estoque">
+        
+        </div>
+        <div>
+            <input type="button" id="botaoInicio" onclick="paginaInicial()" value="Inicio">
+        </div>
+    </div>
+   
+        <script src="criarEstoque.js"></script>
+
+    </body>
+</html>
