@@ -36,6 +36,7 @@ verde25mm = "2,5mm e verde"
 preto40mm = "4,0mm e preto"
 azul40mm = "4,0mm e azul"
 
+
 if(localStorage.getItem(preto15mm) == null){
 localStorage.setItem(preto15mm, 0)
 }

@@ -29,7 +29,6 @@ div1.appendChild(canvas);
 
 
 
-
 function incluirItem(){
     bitola = document.getElementById('bitola')
     corDoFio = document.getElementById('corDoFio')

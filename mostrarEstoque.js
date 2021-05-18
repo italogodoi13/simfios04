@@ -181,7 +181,6 @@ div2.appendChild(textoPreto40mm)
 
 
 
-
 qtdPreto40mm = document.createElement("input")
 
 qtdPreto40mm.style.width = 140
